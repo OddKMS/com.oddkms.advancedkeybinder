@@ -1,9 +1,8 @@
-#include "MyStreamDeckPlugin.h"
+#include "AdvancedKeybinder.h"
 
 #include <StreamDeckSDK/ESDMain.h>
-#include <StreamDeckSDK/ESDLogger.h>
 
 int main(int argc, const char** argv) {
-  ESDLogger::Get()->SetWin32DebugPrefix("[esdcpu] ");
-  return esd_main(argc, argv, new MyStreamDeckPlugin());
+  auto plugin = std::make_unique<AdvancedKeybinder>();
+  return esd_main(argc, argv, plugin.get());
 }
