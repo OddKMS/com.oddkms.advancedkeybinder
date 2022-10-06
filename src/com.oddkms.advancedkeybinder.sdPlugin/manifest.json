@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "",
+      "Name": "AdvancedKeybinder",
+      "States": [
+        {
+          "Image": "",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "You want to bind a key to both the KeyUp and KeyDown events? I got you covered!",
+      "UUID": "com.oddkms.advancedkeybinder.action"
+    }
+  ],
+  "Author": "OddKMS",
+  "CodePathMac": "AdvancedKeybinder",
+  "CodePathWin": "AdvancedKeybinder.exe",
+  "Description": "A keybind plugin with separate functions for the KeyUp and KeyDown events",
+  "Icon": "",
+  "Name": "Stream Deck Advanced Keybinder",
+  "DefaultWindowSize": [500, 650],
+  "Version": "0.0.1",
+  "SDKVersion": 2,
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "5.0"
+  }
+}

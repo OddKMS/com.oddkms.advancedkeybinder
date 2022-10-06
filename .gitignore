@@ -1,0 +1,6 @@
+vcpkg/
+CMakeLists.txt.user
+build
+bin
+DistributionTool.exe
+com.oddkms.advancedkeybinder.streamDeckPlugin
